@@ -8,7 +8,8 @@ while n > 0:
         admin = input("请输入您的用户名：")
         mima = input("请输入您的密码：")
         n = n - 1
-
+        if n == 0:
+            print('输入次数过多,请明天再试')
     if admin == "yuwengang" and mima == "123456":
         print("登录成功")
         break
